@@ -1,6 +1,6 @@
 import sys
 
-def parse_inventory(args):
+def parse_inventory(args: list) -> dict:
     inventory = {}
 
     for arg in args:
